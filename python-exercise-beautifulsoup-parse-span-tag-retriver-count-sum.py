@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 #use input function then save value inside url
 url = input('Enter - ')
 
+#to test using pycharm
+#url = "http://py4e-data.dr-chuck.net/comments_373679.html"
+
 #open the url using urllib library (urllib.request.urlopen(variable))
 #then do a .read(),
 html = urllib.request.urlopen(url).read()
@@ -21,7 +24,7 @@ sum = 0
 
 #use definite loop for each tags
 for tag in tags:
-	
+
 	#take the text inside the tag between <span></span>
 	x = int(tag.text)
 

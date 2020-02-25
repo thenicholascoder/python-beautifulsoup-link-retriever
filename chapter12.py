@@ -3,7 +3,7 @@ import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
 
 #use input function then save value inside url
-url = input('Enter - ')
+url = "http://py4e-data.dr-chuck.net/comments_373679.html"
 
 #open the url using urllib library (urllib.request.urlopen(variable))
 #then do a .read(),
