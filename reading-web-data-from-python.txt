@@ -26,7 +26,7 @@ answer = mysock.recv()
 
 <p>Please click <a href="http://www.dr-chuck.com">here</a></p>
 
-answer = http://*
+answer = "http://(.+)""
 
 4. In this Python code, which line is most like the open() call to read a file:
 
